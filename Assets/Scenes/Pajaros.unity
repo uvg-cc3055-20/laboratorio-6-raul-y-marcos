@@ -255,6 +255,7 @@ GameObject:
   - component: {fileID: 139999861}
   - component: {fileID: 139999860}
   - component: {fileID: 139999859}
+  - component: {fileID: 139999863}
   m_Layer: 0
   m_Name: Boton_Blue_Jay
   m_TagString: Untagged
@@ -359,6 +360,18 @@ MonoBehaviour:
     e32: 0
     e33: 1
   mPrevParent: {fileID: 1924182202}
+--- !u!114 &139999863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 139999857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce0622d639206ba4da6039dfa7c8f47e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  birdAnim: {fileID: 1927159217}
 --- !u!43 &177679747
 Mesh:
   m_ObjectHideFlags: 0
@@ -771,6 +784,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1927159217 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 9500000, guid: 9e8e96d31d222394087dd09880b9a261,
+    type: 3}
+  m_PrefabInternal: {fileID: 2029096852}
 --- !u!1001 &2029096852
 Prefab:
   m_ObjectHideFlags: 0
